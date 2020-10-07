@@ -8,7 +8,11 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	echo "OK";
+	$sql = new \php_Classes\src\DB\Sql();
+
+	$results = $sql -> select("SELECT * FROM tb_users");
+
+	echo json_encode($results);
 
 });
 

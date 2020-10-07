@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit6e77bcf237c84e77e8bc013a64a58dfb
 {
     public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/hugoRegadas/php-classes/src',
+        0 => __DIR__ . '/..' . '/hcodebr/php-classes/src',
     );
 
     public static $prefixesPsr0 = array (

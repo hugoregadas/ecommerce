@@ -1,5 +1,5 @@
 {
-    "name": "hugoRegadas/ecommerce",
+    "name": "hugoregadas/ecommerce",
     "authors": [
         {
             "name": "Hcode Treinamentos",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\hugoRegadas\\php-classes\\src"
+            "": "vendor\\hcodebr\\php-classes\\src"
         }
     }
 }
