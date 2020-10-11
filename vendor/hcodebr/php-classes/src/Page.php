@@ -12,13 +12,13 @@ class Page {
 	private $defaults = [
 		"data" => []
 	];
-	public function __construct($opts = array()){
+	public function __construct($opts = array(), $tpl_dir = "/views/"){
 		// se existir algum conflito no 1 para o 2 array, o que fica a valer é o seguundo array $opts)
 		$this -> options = array_merge($this -> defaults, $opts);
 
 		// configurar TpL
 		$config = array(
-			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]."/views/",
+			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]. $tpl_dir,
 			"cache_dir"     => $_SERVER["DOCUMENT_ROOT"]."/views-cache/"
 		);
 
